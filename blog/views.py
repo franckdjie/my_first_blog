@@ -34,3 +34,6 @@ quel est votre age
 <input type="submit" value="envoyer">
 </form>"""
     return HttpResponse(text)
+def site(request):
+    text="""voici en fin mon site web créé"""
+    return HttpResponse(text)
